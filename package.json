@@ -1,0 +1,22 @@
+{
+  "author": "Bryan English <bryan@bryanenglish.com> (http://about.me/bengl)",
+  "name": "req2",
+  "description": "A super-duper replacement for require.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bengl/req2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bengl/req2.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "coffee tests/test.coffee"
+  },
+  "engines": {
+    "node": ">=v0.4.7"
+  },
+  "dependencies": {
+    "coffee-script":">=1.1.1"
+  },
+  "devDependencies": {}
+}
