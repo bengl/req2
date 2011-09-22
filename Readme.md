@@ -12,37 +12,37 @@ now, but later on I may have it detect pairs of files and callbacks.
 
 * Works as normal.
 
-    //JavaScript
-    var module = require('req2')('module');
-
-    #CoffeeScript:
-    module = require('req2')('module')
-    #or
-    module = require('req2') 'module'
+        //JavaScript
+        var module = require('req2')('module');
+    
+        #CoffeeScript:
+        module = require('req2')('module')
+        #or
+        module = require('req2') 'module'
 
 * Require multiple modules (as either mutiple arguments or as an array), returned in an array.
 
-    //JavaScript
-    var modules = require('req2')('module0','module1');
-    var module0 = modules[0];
-    var module1 = modules[1];
-    //or
-    var modules = require('req2')(['module0','module1']);
-    var module0 = modules[0];
-    var module1 = modules[1];
-    
-    #CoffeeScript
-    [module0,module1] = require('req2') 'module0','module1'
-    #or
-    [module0,module1] = require('req2') ['module0','module1']
+        //JavaScript
+        var modules = require('req2')('module0','module1');
+        var module0 = modules[0];
+        var module1 = modules[1];
+        //or
+        var modules = require('req2')(['module0','module1']);
+        var module0 = modules[0];
+        var module1 = modules[1];
+        
+        #CoffeeScript
+        [module0,module1] = require('req2') 'module0','module1'
+        #or
+        [module0,module1] = require('req2') ['module0','module1']
 
 * Open files (with fs.readFileSync).
 
-    //JavaScript
-    var file = require('req2')('./file.txt');
-    
-    #CoffeeScript:
-    file = require('req2') './file.txt'
+        //JavaScript
+        var file = require('req2')('./file.txt');
+        
+        #CoffeeScript:
+        file = require('req2') './file.txt'
 
 ### Future Stuff
 
