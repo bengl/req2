@@ -8,6 +8,10 @@ I always wanted to be able to require multiple modules via destructuring assignm
 tidyer. I also figured that require should be able to read in the text from a file too. That bit is synchronous right 
 now, but later on I may have it detect pairs of files and callbacks.
 
+### Installation
+
+<pre>$ npm install req2</pre>
+
 ### Features
 
 * Works as normal.
